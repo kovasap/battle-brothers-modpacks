@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/bin/zsh
 
-BBROS_INSTALL_DIR='/run/media/kovas/other/SteamLibrary/steamapps/common/Battle Brothers/data/'
+BBROS_INSTALL_DIR="/run/media/kovas/other/SteamLibrary/steamapps/common/Battle Brothers/data/"
 
-rm $BBROS_INSTALL_DIR/*.zip
+echo $BBROS_INSTALL_DIR
+
+rm "${BBROS_INSTALL_DIR}"*.zip
 cp hardened/* $BBROS_INSTALL_DIR
