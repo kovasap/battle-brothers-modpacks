@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 typeset BBROS_INSTALL_DIR
-for dir in "/run/media/kovas/other/SteamLibrary/steamapps/common/Battle Brothers/data/" "/home/kovas/.steam/debian-installation/steamapps/common/Battle Brothers/"; do
+for dir in "/run/media/kovas/other/SteamLibrary/steamapps/common/Battle Brothers/data/" "/home/kovas/.steam/debian-installation/steamapps/common/Battle Brothers/data/"; do
     if [[ -d $dir ]]; then
         BBROS_INSTALL_DIR=$dir
         break
