@@ -14,3 +14,4 @@ rm "${BBROS_INSTALL_DIR}"*.zip
 cp hardened/* $BBROS_INSTALL_DIR
 rm -r "${BBROS_INSTALL_DIR}"gfx/*
 unzip hardened/BBLargeFontMOD-182-1-0-1572135147.zip -d "${BBROS_INSTALL_DIR}gfx/"
+cp mod_MoreMusic* $BBROS_INSTALL_DIR
